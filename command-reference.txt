@@ -2,10 +2,11 @@
     aws s3 cp --recursive webapp/ s3://dheiljorisbignay.com/
     
 2. To update repository and see other programmer's changes
-    git pull origin master
+    git pull
     
 3. To allow other programmer's to see your changes
-    git pull origin master
+    git pull
+    git push
     
 4. To see you local changes
     git status

@@ -1,5 +1,5 @@
 1. To update s3 bucket after changing the html/css/javascript files so you can see your code changes on www.dheiljorisbignay.com
-    aws s3 cp --recursive webapp/ s3://dheiljorisbignay.com/
+    aws s3 cp --recursive . s3://bossdheil.com/
     
 2. To update repository and see other programmer's changes
     git pull
@@ -16,3 +16,6 @@
     
 7. To commit your changes to local repository
     git commit -m "your commit message"
+    
+8. To go to your website:
+    http://bossdheil.com.s3-website-ap-southeast-1.amazonaws.com/index.html

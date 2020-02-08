@@ -1,5 +1,5 @@
 1. To update s3 bucket after changing the html/css/javascript files so you can see your code changes on www.dheiljorisbignay.com
-    aws s3 cp --recursive . s3://bossdheil.com/
+    aws s3 cp --recursive webapp s3://bossdheil.com/
     
 2. To update repository and see other programmer's changes
     git pull
